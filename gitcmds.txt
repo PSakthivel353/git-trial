@@ -1,0 +1,35 @@
+GITHUB COMMANDS
+--------------------------------------------------------------------------------------------------------------------
+//Setup in cmd:
+git config --global user.name "username"
+git config --global user.email "email-id"
+
+//directory cmds
+cd <foldername> //to move the folder
+cd .. //move back
+
+//vsc -> gitHub:
+git clone <repository link>
+git add filename.txt //status A
+git status
+git commit -m "commit msg"
+git push origin main //"main" branch
+git init //corresponding folder will add as a repository in git
+
+//folder to repo:
+cd <folder>
+git add . //adds all untracked files
+git remote add origin <repo link>
+git branch //default master - git push origin master
+git branch -M main //branches to main subfolder
+git push ... //git push cmd
+
+//branches
+git branch -a //tells all branches available
+git checkout <branch-name> //moves to new branch. 
+git diff <branch-name> //tells the difference btw two branches
+git merge <branch-name> //merges the "branch-name" with main branch after git push
+
+
+//GitHub -> vsc
+git pull
